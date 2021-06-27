@@ -1,0 +1,39 @@
+Project Requirements:
+
+AVA Task
+
+Develop a running web application
+This application will have to manage basic patient data 
+(name, surname, date of birth and social security number). 
+
+For each patient should be possible to record one or more visit(s). 
+Each visit has to contain the date and time of the visit, 
+the type of the visit (either at home or at the doctor office), 
+
+the reason of the visit (first visit, recurring visit, urgent) and 
+the family history (a free text section).
+
+The application workflow has to:
+
+• Select a Patient
+• create or update a visit for the patient
+• update a visit
+• View all Patients
+• View all Visits of a particular patient
+• all data have to be persisted
+
+Main focus is on:
+• communication
+• the way you structure and organize your work
+• code quality
+• documentation
+• tests
+
+Don’t Forget:
+• Unit tests
+• API driven
+
+Non-functional requirements:
+
+• Use REST APIs
+
